@@ -687,7 +687,11 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
-    margin: auto auto auto auto;
+    margin-left: 0;
+}
+
+.phys_con{
+    text-align: left;
 }
 
 .h1 {
@@ -792,6 +796,15 @@ h4 {
 
 .tc-white {
     color: black!important;
+    text-shadow: white 0 0 4px;
+}
+
+.quote{
+    font-style: italic;
+    font-weight: bold;
+}
+.quote_name{
+    font-style: italic;    
 }
 
 .btn-atomic-tangerine {
@@ -838,7 +851,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
