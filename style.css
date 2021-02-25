@@ -18,6 +18,11 @@ a:hover {
     cursor: pointer;
 }
 
+.img-responsive{
+    overflow: hidden;
+    min-width: 100%;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -305,6 +310,11 @@ a:hover {
     max-height: 200px;
     margin: 0 5px 0 0;
     display: inline;
+    height: 40px;
+}
+
+.logo{
+    width: 100px;
 }
 
 .navbar-brand img[src$=svg] {
@@ -687,7 +697,12 @@ p {
 
 .tight-width-whitespace {
     max-width: 600px;
+    margin: auto;
+}
+
+.p_tight{
     margin-left: 0;
+    text-align: left;
 }
 
 .phys_con{
