@@ -508,6 +508,10 @@ button {
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    max-width: 90%;
+}
+.nav{
+    padding-left: 0;
 }
 
 .scrollToTop {
@@ -677,7 +681,8 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+    text-align: center;
 }
 
 .tight-width-whitespace {
@@ -702,11 +707,15 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
 
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 h3 {
@@ -736,7 +745,14 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: black!important;
+}
+
+.part{
+    color: black!important;
+}
+.part a{
+    color: black!important;
 }
 
 .portfolio-thumb {
@@ -775,17 +791,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -867,11 +883,6 @@ h4 {
     .b-parallax {
         background-attachment: scroll;
     }
-    .page-container,
-    #hero-bloc {
-        overflow-x: hidden;
-        position: relative;
-    }
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
@@ -890,10 +901,6 @@ h4 {
 }
 
 @media (max-width: 767px) {
-    .page-container {
-        overflow-x: hidden;
-        position: relative;
-    }
     h1,
     h2,
     h3,
@@ -957,7 +964,6 @@ h4 {
     }
     .navbar-collapse {
         padding: 0;
-        overflow-x: hidden;
         -webkit-box-shadow: none;
         box-shadow: none;
     }
